@@ -8,12 +8,12 @@ int main(void)
     {
         while (1 > 0)
         {
-            printf("|\t%d x %d = %d\t|", j, i, j * i);
+            printf("|\t%d x %d = %d\t", j, i, j * i);
             if (j % 3 == 0)
             {
                 i++;
                 j = j - 3;
-                printf("\n");
+                printf("|\n");
             };
             j++;
             if (i == 9)
